@@ -4,6 +4,9 @@ import { PageAcceuilComponent } from './Pages/resp_classe/page-acceuil/page-acce
 import path from 'path';
 import { Component } from '@angular/core';
 import { AcceuilEnseignantComponent } from './Pages/enseignant/acceuil-enseignant/acceuil-enseignant.component';
+import { AvisComponent } from './Pages/resp_classe/avis/avis.component';
+import { NotesComponent } from './Pages/resp_classe/notes/notes.component';
+import { MessRPComponent } from './Pages/resp_classe/mess-rp/mess-rp.component';
 
 export const routes: Routes = [
     {
@@ -17,10 +20,23 @@ export const routes: Routes = [
     },
     {
         path: 'page-acceuil',
-        component:PageAcceuilComponent
+        component:PageAcceuilComponent,
+        
     },
     {
         path: 'enseignant/acceuil-enseignant',
         component:AcceuilEnseignantComponent
+    },
+    {
+        path:'avis',
+        component:AvisComponent
+    },
+    {
+        path:'notes',
+        component:NotesComponent
+    },
+    {
+        path:'mess-rp',
+        component:MessRPComponent
     }
 ];

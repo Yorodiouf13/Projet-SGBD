@@ -4,25 +4,25 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+  <title>Acceuil-responsable</title>
 </head>
 <body>
   <main>
     <header>
       <nav>
-        <a href="#">
+        <a href="avis" [(ngModel)]="value.vers" (click)="onValue()">
           <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/users.png" alt="donnez l'avis des étudiants concernant les enseignements">
           Avis étudiant
           <div class="icon">&#10095;</div>
           <span class="bottom-line"></span>
         </a>
-        <a href="#">
-          <img src="C:\Users\LENOVO\Downloads\note-collante.png" alt="">
+        <a href="notes" [(ngModel)]="value.vers" (click)="onValue()">
           Notes
           <div class="icon">&#10095;</div>
           <span class="bottom-line"></span>
         </a>
-        <a href="#">
+        
+        <a href="mess-rp"  [(ngModel)]="value.vers" (click)="onValue()">
           <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/mess.png" alt="recevez les retours du RP">
           Messages RP
           <div class="icon">&#10095;</div>
