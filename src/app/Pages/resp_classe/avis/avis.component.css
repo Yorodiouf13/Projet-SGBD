@@ -1,13 +1,16 @@
 body {font-family: Arial, Helvetica, sans-serif;
-    padding: 0px;}
+    padding: 50px;
+    width: 100%;
+}
 
 main {
     background: linear-gradient(to top, #34374e, dodgerblue);
     width: 100%;
     height: 100vh;
+    align-items: center;
       }
   
-  input[type=text], textarea, input[type=email] {
+  input[type=text], textarea {
     width: 100%;
     padding: 12px;
     border: 1px solid #ccc;
@@ -21,7 +24,7 @@ main {
   }
   label{margin-right: 0px;
     margin-left: 0px;
-    width: 100%;}
+    width: 200%;}
   
   input[type=submit] {
     background-color: #1255a2;
@@ -38,16 +41,18 @@ main {
   
   .container {
     /* Ajouter box-sizing */
-    box-sizing : border-box;
+    box-sizing : content-box;
     border-radius:5px;
-    background-color:#f2f2f2;
-    padding:20px;
-    width: 100%;
+    background-color:#34374e;
+    padding:10px;
+    width: 200%;
     /* redéfinition 400 + 2*20 */
     max-width: 440px;
     margin:0 auto;
+    color: #ffffff;
+    
   }
   h1  {
-    color: #ffc800;
+    color: #ffffff;
     width: 100%;
   }
