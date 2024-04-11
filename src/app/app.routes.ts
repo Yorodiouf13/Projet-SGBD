@@ -7,6 +7,10 @@ import { AcceuilEnseignantComponent } from './Pages/enseignant/acceuil-enseignan
 import { AvisComponent } from './Pages/resp_classe/avis/avis.component';
 import { NotesComponent } from './Pages/resp_classe/notes/notes.component';
 import { MessRPComponent } from './Pages/resp_classe/mess-rp/mess-rp.component';
+import { CoursComponent } from './Pages/enseignant/cours/cours.component';
+import { DirectivesComponent } from './Pages/enseignant/directives/directives.component';
+import { ReunionComponent } from './Pages/enseignant/reunion/reunion.component';
+import { TdTpComponent } from './Pages/enseignant/td-tp/td-tp.component';
 
 export const routes: Routes = [
     {
@@ -38,5 +42,17 @@ export const routes: Routes = [
     {
         path:'mess-rp',
         component:MessRPComponent
+    },
+    {
+        path:'cours',
+        component:CoursComponent
+    },
+    {
+        path:'directives',
+        component: DirectivesComponent
+    },
+    {
+        path:'td-tp',
+        component:TdTpComponent
     }
 ];
