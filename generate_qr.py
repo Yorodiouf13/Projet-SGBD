@@ -12,5 +12,5 @@ qr.add_data(data)
 qr.make(fit=True)
 
 #Création d'une image QRcode
-qr_image=qr.make_image(fill_color="purple", back_color="white")
+qr_image=qr.make_image(fill_color="white", back_color="purple")
 qr_image.save("qrcode.png")
