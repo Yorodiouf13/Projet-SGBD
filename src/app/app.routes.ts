@@ -9,7 +9,6 @@ import { NotesComponent } from './Pages/resp_classe/notes/notes.component';
 import { MessRPComponent } from './Pages/resp_classe/mess-rp/mess-rp.component';
 import { CoursComponent } from './Pages/enseignant/cours/cours.component';
 import { DirectivesComponent } from './Pages/enseignant/directives/directives.component';
-import { ReunionComponent } from './Pages/enseignant/reunion/reunion.component';
 import { TdTpComponent } from './Pages/enseignant/td-tp/td-tp.component';
 
 export const routes: Routes = [
